@@ -30,7 +30,7 @@ export default function Blog() {
         <div>
             <h1>Welcome to the Blog</h1>
             <p>This is the content of the blog page.</p>
-            <button onClick={fetchData}>Fetch API Data</button>
+            <button className='btn btn-primary' onClick={fetchData}>BackEnd api 호출</button>
 
             {/* 여러 값들을 개별적으로 출력 */}
             <h1>결과:</h1>
